@@ -1,0 +1,103 @@
+defensive_stance:
+  name: "Защитная стойка"
+  description: "Воины Северных Лап несокрушимы на горных перевалах"
+  cooldown: 2
+  icon: "🏰"
+
+careful_lunge:
+  name: "Осторожный выпад"
+  description: "Резкий, но осторожный взмах меча"
+  cooldown: 1
+  icon: "🤺"
+  damage:
+    type: "physical"
+    value: 120
+    target: "enemy"
+
+shield_bash:
+  name: "Удар щитом"
+  description: "Хоть это и простой удар щитом, мало не покажется никому"
+  cooldown: 2
+  icon: "🛡️"
+  damage:
+    type: "physical"
+    value: 95
+    target: "enemy"
+
+desperate_strike:
+  name: "Отчаянный удар"
+  description: "Предчуствуя скорую победу, воин Северных Лап открывается, совершая удар"
+  cooldown: 3
+  icon: "⚔️"
+  damage:
+    type: "physical"
+    value: 195
+    target: "enemy"
+  effects:
+    - type: "crack"
+      power: 0.18
+      duration: 1
+      target: "enemy"
+
+northern_wind:
+  name: "Взмах северного ветра"
+  description: "Северный ветер придаёт сил своему воину и приносит морозную смерть своим врагам"
+  cooldown: 4
+  icon: "❄️"
+  damage:
+    type: "magical"
+    value: 140
+    target: "enemy"
+  effects:
+    - type: "stun"
+      power: 1
+      duration: 1
+      target: "enemy"
+
+careful_strike:
+  name: "Аккуратный удар"
+  description: "Точный и аккуратный взмах кинжала"
+  cooldown: 1
+  icon: "🗡️"
+  damage:
+    type: "physical"
+    value: 150
+    target: "enemy"
+
+bloody_whistle:
+  name: "Кровавый свист"
+  description: ""
+  cooldown: 2
+  icon: "⛏️"
+  damage:
+    type: "physical"
+    value: 120
+    target: "enemy"
+  effects:
+    - type: "bleed"
+      power: 15
+      duration: 4
+      target: "enemy"
+
+open_veins:
+  name: "Вскрыть вены"
+  description: ""
+  cooldown: 4
+  icon: "🔪"
+  effects:
+    - type: "bleed"
+      power: 7
+      duration: 4
+      target: "enemy"
+    - type: "bleed"
+      power: 7
+      duration: 4
+      target: "enemy"
+    - type: "bleed"
+      power: 7
+      duration: 4
+      target: "enemy"
+    - type: "bleed"
+      power: 7
+      duration: 4
+      target: "enemy"

@@ -1,0 +1,29 @@
+northpaw_veteran:
+  name: "Ветеран северных лап"
+  max_health: 1000
+  armor: 0.35
+  magic_resistance: 0.1
+  attack_amplify: 1.0
+  magic_amplify: 1.0
+  picture: "🐱⚔️"
+  abilities:
+    - "defensive_stance"
+    - "careful_lunge"
+    - "shield_bash"
+    - "desperate_strike"
+    - "northern_wind"
+
+bloodfang_berserker:
+  name: "Берсерк кровавого клыка"
+  max_health: 780
+  armor: 0.22
+  magic_resistance: 0.1
+  attack_amplify: 1.0
+  magic_amplify: 1.0
+  picture: "🐱🩸"
+  abilities:
+    - "blood_sacrifice"
+    - "careful_strike"
+    - "bloody_whistle"
+    - "feeling_of_blood"
+    - "open_veins"
