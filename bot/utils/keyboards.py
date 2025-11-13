@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters.callback_data import CallbackData
 
-# Callback data
+# Callback Data
 class CharacterCallback(CallbackData, prefix="character"):
     action: str
     character_id: str
